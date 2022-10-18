@@ -1,0 +1,118 @@
+.header_box {
+  background-color: #f5f5f5;
+  height: 50px;
+}
+
+.header_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header_contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.header_phone {
+  border-left: 1px solid #e2e6e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.phone {
+  color: #aab0c1;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Raleway";
+  text-decoration: none;
+}
+.phone:hover {
+  color: #444;
+}
+
+.phone:hover .phone_icon {
+  fill: #444;
+}
+
+.header_email {
+  border-left: 1px solid #e2e6e7;
+  border-right: 1px solid #e2e6e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.header_social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.social {
+  height: 22px;
+  max-width: 25px;
+  fill: #aab0c1;
+}
+
+.header_face:hover,
+.header_face_active:hover {
+  background-color: #e2e6e7;
+}
+
+.header_face {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  color: #444;
+  text-transform: uppercase;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-left: 1px solid #e2e6e7;
+  border-right: 1px solid #e2e6e7;
+  padding: 0 10px;
+}
+
+.header_face_active {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #ff8800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-left: 1px solid #e2e6e7;
+  border-right: 1px solid #e2e6e7;
+  padding: 0 10px;
+}
+
+.phone_icon {
+  height: 20px;
+  fill: #aab0c1;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767.5px) {
+  .header_box {
+    display: none;
+  }
+  .header_email {
+    border: none;
+  }
+  .header_phone {
+    border: none;
+  }
+}
