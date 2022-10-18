@@ -2,7 +2,7 @@ import { useState } from "react";
 import withLocalization from "../../components/hocLang/withLocalization";
 
 import Container from "../../components/Container/Container";
-import img from "../../images/car1/car.jpg";
+
 import laptop from "../../images/laptops.jpg";
 
 import "./AboutUs.css";
