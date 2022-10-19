@@ -21,16 +21,14 @@ function ModalBox(props) {
 
     emailjs
       .send(
-        "service_xz2ia0h",
-        "template_6bw51po",
+        "service_15d2gt4",
+        "template_10nz3l3",
         {
           from_name: name,
-          email: tel,
-          date_from: dataFrom,
-          date_to: dataTo,
+          to_name: tel,
           message: massege,
         },
-        "qIZ1BmBa6hqijvbKN"
+        "63VrFfhUKEko2T_jp"
       )
       .then((res) => console.log(res))
       .catch((err) => console.log(err));
